@@ -172,18 +172,26 @@
                     }
                 })();
                 alert("Rotate the phone & tilt left/right to move the car.")
+                document.getElementById('playBtn').addEventListener('click', function() {
+                    var audio = document.getElementById('myAudio');
+                    audio.play();
+                });
             </script>
+             
         </div>
-        
+        <audio id="myAudio">
+            <source src="Crystal Castles - Kerosene (mp3cut.net).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
         
         <div id="mainContainer" style="background:rgb(32, 166, 243)" >
             <img id="city" src="1.jpg">
             <canvas id="myCanvas" style="/*background:#9de732*/" ></canvas>
         </div>
-        <img class="aImg" id="t1" src="https://image.ibb.co/dZi5Ly/t1.png">
-        <img class="aImg" id="t2" src="https://image.ibb.co/jajjDJ/t2.png">
-        <img class="aImg" id="t3" src="https://image.ibb.co/it4jDJ/t5.png">
-        <img class="aImg" id="t4" src="https://image.ibb.co/ksy0nd/t4.png">
+        <img class="aImg" id="t1" src="R-removebg-preview.png">
+        <img class="aImg" id="t2" src="R-removebg-preview.png">
+        <img class="aImg" id="t3" src="R-removebg-preview.png">
+        <img class="aImg" id="t4" src="R-removebg-preview.png">
         <img class="aImg" id="c1" src="a-removebg-preview.png">
         <script>
                    

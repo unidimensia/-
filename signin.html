@@ -40,9 +40,10 @@
        <div class="links">  <a href="signup.html">Sign in</a> 
  
        </div> <br>
-       <div class="button"> 
+       <div class="inputBox"> 
+        <input type="hidden" name="redirect" value="th.html">
  
-        <button type="ww" onclick="window.location.href='th.html';">SIGN UP</button>
+        <button type="submit" onclick="handleClick()">SIGN UP</button>
  
        </div>
  
@@ -56,6 +57,13 @@
 
 
 
-    <script src="index.js"></script>
+    <script>
+      function handleClick() {
+        setTimeout(() => {
+            window.location.href = "th.html";
+        }, 2000);
+    }
+        }
+    </script>
 </body>
 </html>

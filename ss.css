@@ -156,7 +156,7 @@ section .signin .content .form .inputBox i
   color: rgb(3, 238, 255);
   font-weight: 600;
 }
-.signin .content .form .button button[type="ww"]
+.signin .content .form .inputBox button[type="submit"]
 {
   padding: 10px;
   background: rgb(1, 255, 115);
